@@ -1,0 +1,58 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body{
+   background-color: cadetblue;
+}
+
+header h1{
+   text-align: center;
+   color:cornsilk ;
+   text-transform: uppercase;
+   margin-bottom: 16px;
+   margin-top: 10px;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: auto;
+   width: 700px;
+   height: 500px;
+   border-radius:15px ;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.63);
+   background-color: cornsilk;
+}
+
+.div{
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+footer{
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+   height: 40px;
+   text-align: center;
+   background-color: cornsilk;
+   padding-top:10px ;
+}
+
+#img{
+   background-image: url("./manha.jpg");
+   background-size: cover;
+   border-radius: 50%;
+   overflow: hidden;
+   width: 350px;
+   height: 350px;
+   border: none;
+}
