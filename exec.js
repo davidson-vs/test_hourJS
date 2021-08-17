@@ -3,7 +3,7 @@ function teste() {
    var img = document.querySelector("#img")
 
    var data = new Date
-    var hora = 14//data.getHours()
+    var hora = data.getHours()
    msg.innerHTML = `<h3>Agora são ${hora} horas</h3>`
 
    if (hora >= 4 && hora <= 12) {
